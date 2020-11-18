@@ -28,7 +28,7 @@ class Ball{
             Matter.Body.applyForce(this.body,{x:this.body.position.x,y:this.body.position.y}, {x:0,y:-0.005});
         }
         if (keyWentDown("up")) {
-            Matter.Body.applyForce(this.body,{x:this.body.position.x,y:this.body.position.y}, {x:0.045,y:-0.054});
+            Matter.Body.applyForce(this.body,{x:this.body.position.x,y:this.body.position.y}, {x:0.046,y:-0.054});
         }
         // if (keyWentUp("up")) {
         //     Matter.Body.applyForce(this.body,{x:this.body.position.x,y:this.body.position.y}, {x:0,y:0});
